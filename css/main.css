@@ -121,6 +121,7 @@ a {
     top: 0;
     left: 0;
     background-image: url('../img/BackgroundNavbar.png');
+    background-color: #EFE6D3;
     background-size: 100vw;
     background-position: center;
     overflow-x: hidden;
