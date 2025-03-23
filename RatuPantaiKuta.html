@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KathaRakyat</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+
+</head>
+
+<body style="background-color: #825A46;">
+    <!-- DESKTOP NAVIGATION -->
+    <div class="navigation sticky" id="navSection">
+        <div class="navLeft">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="/img/iconNav.png">
+            </a>
+            <a href="index.html#headerSection">
+                <img class="logoKathaRakyat" src="/img/logoKathaRakyat.png">
+            </a>
+        </div>
+        <div class="navRight">
+            <a style="color: #822E24;" href="index.html#kepribadianSection">Kepribadian</a>
+            <a style="color: #D09610;"  href="index.html#productSection">Produk</a>
+            <a style="color: #516029;"  href="#footerSection">Kontak</a>
+        </div>
+    </div>
+
+    <!-- MOBILE NAVIGATION -->
+    <div class="sidePanelStyle" id="sidePanel">
+        <div>
+            <img style="position: absolute; top: 2.5vh; left: 7vw;" class="logoNavbar" src="/img/logoKathaRakyat.png">
+            <a href="javascript:void(0)" class="closeButton" onclick="closeNav()" style="border-bottom: 0px;">×</a>
+        </div>
+            <a style="color: #822E24;" href="index.html#kepribadianSection" onclick="closeNav()">Kepribadian</a>
+            <a style="color: #D09610;"  href="index.html#productSection" onclick="closeNav()">Produk</a>
+            <a style="color: #516029;"  href="#footerSection" onclick="closeNav()">Kontak</a>
+    </div>
+
+    <div class="navbar sticky">
+        <a class="openButton" onclick="openNav()">
+            <img src="/img/iconNav.png">
+        </a>
+        <a style="width: 100vw; text-align: right; margin-right: 3vw;" href="index.html#headerSection">
+            <img class="logoNavbar" src="/img/logoKathaRakyat.png">
+        </a>
+    </div>
+
+    <div class="eachCharacter ratuPantaiKuta">
+        <a href="index.html#kepribadianSection">
+            <img src="/img/backButton.png" class="backButton" >
+        </a>
+        <div class="characterImage">
+            <img src="img/RatuPantaiKuta.png">
+        </div>
+        <div class="storyCharacter">
+            <div style="outline: 16px solid #822E24;" class="storyContainer">
+                <div class="name">
+                    <h1 style="color: #822E24;">
+                        Ratu Pantai Kuta
+                    </h1>
+                </div>
+                <div class="characteristicLong">
+                    <p>
+                        Pada zaman dahulu, terdapat dua kerajaan besar yang berdiri di tanah Bali: Kerajaan Laut yang dipimpin oleh Ratu Pantai Kuta dan Kerajaan Darat yang dipimpin oleh Raden Agung Wiratama. Sering kali muncul pertikaian di antara kedua kerajaan ini. Namun, konflik ini memanas ketika dua nelayan dari Kerajaan Darat dihukum karena melewati batas wilayah Kerajaan Laut yang memicu pecahnya perang besar di antara kedua kerajaan tersebut. <br> <br> Untuk menghentikannya, kedua pemimpin tersebut bertemu dan menyadari bahwa perdamaian adalah jalan terbaik untuk menghindari kehancuran. Seiring berjalannya waktu, mereka juga menyadari bahwa telah tumbuh benih cinta di antara mereka hingga pada akhirnya, Raden Agung melamar Ratu Pantai Kuta. Pernikahan mereka mendatangkan perdamaian dan persatuan di antara kedua kerajaan tersebut.
+                    </p>
+                </div>
+                <div class="points">
+                    <p style="background-color: #822E24;" class="characteristicPoints">
+                        Percaya Diri
+                    </p>
+                    <p style="background-color: #822E24;" class="characteristicPoints">
+                        Karismatik
+                    </p>
+                    <p style="background-color: #822E24;" class="characteristicPoints">
+                        Berjiwa pemimpin
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" id="footerSection">
+        <div class="leftFooter">
+            <h1 style="color:#EFE6D3;">
+                Lebih Banyak Tentang Kami!
+            </h1>
+        </div>
+        <div class="middleFooter">
+            <a>Instagram</a>
+            <a>TikTok</a>
+            <a>Twitter</a>
+            <a>WhatsApp</a>
+        </div>
+        <div class="rightFooter">
+            <a>Email</a>
+            <a>Shopee</a>
+            <a>TikTok Shop</a>
+            <a>Tokopedia</a>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p style="color:#EFE6D3;">
+            Hak Cipta ©2025; Semua hak dilindungi KathaRakyat
+        </p>
+    </div>
+
+    <script>
+        function openNav() {
+        document.getElementById("sidePanel").style.width = "100%";
+        }
+        
+        function closeNav() {
+        document.getElementById("sidePanel").style.width = "0";
+        }
+    </script>
+
+</body>
+
+</html>

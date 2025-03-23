@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KathaRakyat</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+
+</head>
+
+<body style="background-color: #825A46;">
+    <!-- DESKTOP NAVIGATION -->
+    <div class="navigation sticky" id="navSection">
+        <div class="navLeft">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="/img/iconNav.png">
+            </a>
+            <a href="index.html#headerSection">
+                <img class="logoKathaRakyat" src="/img/logoKathaRakyat.png">
+            </a>
+        </div>
+        <div class="navRight">
+            <a style="color: #822E24;" href="index.html#kepribadianSection">Kepribadian</a>
+            <a style="color: #D09610;"  href="index.html#productSection">Produk</a>
+            <a style="color: #516029;"  href="#footerSection">Kontak</a>
+        </div>
+    </div>
+
+    <!-- MOBILE NAVIGATION -->
+    <div class="sidePanelStyle" id="sidePanel">
+        <div>
+            <img style="position: absolute; top: 2.5vh; left: 7vw;" class="logoNavbar" src="/img/logoKathaRakyat.png">
+            <a href="javascript:void(0)" class="closeButton" onclick="closeNav()" style="border-bottom: 0px;">×</a>
+        </div>
+            <a style="color: #822E24;" href="index.html#kepribadianSection" onclick="closeNav()">Kepribadian</a>
+            <a style="color: #D09610;"  href="index.html#productSection" onclick="closeNav()">Produk</a>
+            <a style="color: #516029;"  href="#footerSection" onclick="closeNav()">Kontak</a>
+    </div>
+
+    <div class="navbar sticky">
+        <a class="openButton" onclick="openNav()">
+            <img src="/img/iconNav.png">
+        </a>
+        <a style="width: 100vw; text-align: right; margin-right: 3vw;" href="index.html#headerSection">
+            <img class="logoNavbar" src="/img/logoKathaRakyat.png">
+        </a>
+    </div>
+
+    <div class="eachCharacter kweiya">
+        <a href="index.html#kepribadianSection">
+            <img src="/img/backButton.png" class="backButton" >
+        </a>
+        <div class="characterImage">
+            <img src="img/Kweiya.png">
+        </div>
+        <div class="storyCharacter">
+            <div style="outline: 16px solid #D09610;" class="storyContainer">
+                <div class="name">
+                    <h1 style="color: #D09610;">
+                        Burung Cenderawasih - Kweiya
+                    </h1>
+                </div>
+                <div class="characteristicLong">
+                    <p>
+                        Pada zaman dahulu, hiduplah seorang anak bernama Kweiya bersama kedua orang tua dan adik-adiknya. Suatu hari, kedua orangtuanya pergi ke ladang, meninggalkan Kweiya untuk mengajari kedua anaknya menganyam noken. Salah satu adiknya, Niko, membuat Kweiya kesal yang membuatnya memilih untuk pergi dan menganyam seorang diri.<br> <br> Ketika kedua orang tuanya pulang, mereka tidak dapat menemukan Kweiya. Setelah mencari kesana dan kemari, mereka menemukan Kweiya yang telah menyisipkan pintalan benang pada ketiaknya dan berubah menjadi seekor burung yang sangat indah. Ibunya yang sangat menyayanginya memilih untuk mengikuti jejaknya untuk menjadi burung. Kedua adiknya dan ayahnya pun mengikuti jejak mereka juga dan terbang mengikuti Kweiya beserta ibunya ke hutan.
+                    </p>
+                </div>
+                <div class="points">
+                    <p style="background-color: #D09610;" class="characteristicPoints">
+                        Pemaaf
+                    </p>
+                    <p style="background-color: #D09610;" class="characteristicPoints">
+                        Penyabar
+                    </p>
+                    <p style="background-color: #D09610;" class="characteristicPoints">
+                        Kreatif
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" id="footerSection">
+        <div class="leftFooter">
+            <h1 style="color:#EFE6D3;">
+                Lebih Banyak Tentang Kami!
+            </h1>
+        </div>
+        <div class="middleFooter">
+            <a>Instagram</a>
+            <a>TikTok</a>
+            <a>Twitter</a>
+            <a>WhatsApp</a>
+        </div>
+        <div class="rightFooter">
+            <a>Email</a>
+            <a>Shopee</a>
+            <a>TikTok Shop</a>
+            <a>Tokopedia</a>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p style="color:#EFE6D3;">
+            Hak Cipta ©2025; Semua hak dilindungi KathaRakyat
+        </p>
+    </div>
+
+    <script>
+        function openNav() {
+        document.getElementById("sidePanel").style.width = "100%";
+        }
+        
+        function closeNav() {
+        document.getElementById("sidePanel").style.width = "0";
+        }
+    </script>
+
+</body>
+
+</html>
