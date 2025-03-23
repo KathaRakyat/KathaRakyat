@@ -89,7 +89,7 @@ p {
     align-items: center;
     align-content: center;
     justify-content: center;
-    background-image: url(img/logoKathaRakyat.png);
+    background-image: url('../img/logoKathaRakyat.png');
     cursor: pointer;
 }
 
@@ -120,7 +120,7 @@ a {
     height: 100vh;
     top: 0;
     left: 0;
-    background-image: url(img/BackgroundNavbar.png);
+    background-image: url('../img/BackgroundNavbar.png');
     background-size: 100vw;
     background-position: center;
     overflow-x: hidden;
@@ -460,7 +460,7 @@ a {
     width: 64vw;
     height: 60vh;
     background-color: #EFE6D3;
-    background-image: url(img/texture.avif);
+    background-image: url('../img/texture.avif');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -771,7 +771,7 @@ a {
     }
 
     .toba {
-        background-image: url(img/BackgroundTobaMobile.png);
+        background-image: url('../img/BackgroundTobaMobile.png');
         background-repeat: no-repeat;
     }
 
@@ -825,7 +825,7 @@ a {
         width: 80vw;
         height: auto;
         background-color: #EFE6D3;
-        background-image: url(img/texture.avif);
+        background-image: url('../img/texture.avif');
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -1168,7 +1168,7 @@ a {
         width: 80vw;
         height: auto;
         background-color: #EFE6D3;
-        background-image: url(/img/texture.avif);
+        background-image: url('../img/texture.avif');
         background-repeat: no-repeat;
         background-size: cover;
 
