@@ -11,17 +11,17 @@ html {
 /* DONTS */
 @font-face {
     font-family: 'Header';
-    src: url(../font/youngserif-regular.ttf);
+    src: url('../font/youngserif-regular.ttf');
 }
 
 @font-face {
     font-family: 'SubHeader';
-    src: url(../font/Montserrat-Bold.ttf);
+    src: url('../font/Montserrat-Bold.ttf');
 }
 
 @font-face {
     font-family: 'Body';
-    src: url(../font/Montserrat-Regular.ttf);
+    src: url('../font/Montserrat-Regular.ttf');
 }
 
 
