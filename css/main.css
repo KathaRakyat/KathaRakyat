@@ -412,35 +412,35 @@ a {
 }
 
 .toba {
-    background-image: url(img/BackgroundToba.png);
+    background-image: url('../img/BackgroundToba.png');
 }
 
 .kweiya {
-    background-image: url(img/BackgroundKweiya.png);
+    background-image: url('../img/BackgroundKweiya.png');
 }
 
 .majojaru {
-    background-image: url(img/BackgroundMajojaru.png);
+    background-image: url('../img/BackgroundMajojaru.png');
 }
 
 .putriTandampalik {
-    background-image: url(img/BackgroundPutriTandampalik.png);
+    background-image: url('../img/BackgroundPutriTandampalik.png');
 }
 
 .pakPetani {
-    background-image: url(img/BackgroundPakPetani.png);
+    background-image: url('../img/BackgroundPakPetani.png');
 }
 
 .candraKirana {
-    background-image: url(img/BackgroundCandraKirana.png);
+    background-image: url('../img/BackgroundCandraKirana.png');
 }
 
 .tapih {
-    background-image: url(img/BackgroundTapih.png);
+    background-image: url('../img/BackgroundTapih.png');
 }
 
 .ratuPantaiKuta {
-    background-image: url(img/BackgroundRatuPantaiKuta.png);
+    background-image: url('../img/BackgroundRatuPantaiKuta.png');
 }
 
 .storyCharacter {
