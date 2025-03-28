@@ -324,6 +324,10 @@ a {
     font-size: 1vw;
 }
 
+.description p:nth-child(2) {
+        padding-top: 1vh;
+}
+
 /* FOOTER*/
 .footer {
     height: 60vh;
