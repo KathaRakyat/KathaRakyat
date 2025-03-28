@@ -292,11 +292,14 @@ a {
 }
 
 .productCart {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
     background-color: #EFE6D3;
     align-items: center;
     align-content: center;
     justify-content: center;
-    margin: 0 14vw;
+    margin: 0 5vw;
 }
 
 .cart {
@@ -319,6 +322,7 @@ a {
 
 .description p {
     padding-bottom: 0;
+    font-size: 1vw;
 }
 
 /* FOOTER*/
