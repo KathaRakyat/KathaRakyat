@@ -1014,7 +1014,7 @@ a {
 
     /* PRODUCT */
     .product {
-        padding: 10vh 5vw 10vh 5vw;
+        padding: 10vh 1vw 10vh 1vw;
     }
 
     .product h1 {
@@ -1032,10 +1032,15 @@ a {
     
     .cart {
         height: 45vh;
-        width: 42vw;
-        box-shadow: 0 5px 15px rgba(53, 43, 34, 0.2);
-        padding: 16px;
+        width: 45vw;
+        box-shadow: 0 5px 15px rgba(53, 43, 34, 0.15);
+        padding: 8px;
         margin: 1.5vw;
+    }
+
+    .description p {
+        padding-bottom: 0;
+        font-size: 3.5vw;
     }
 
     /* FOOTER */
