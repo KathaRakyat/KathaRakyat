@@ -294,7 +294,6 @@ a {
 .productCart {
     display: flex;
     flex-wrap: wrap;
-    position: relative;
     background-color: #EFE6D3;
     align-items: center;
     align-content: center;
@@ -303,7 +302,7 @@ a {
 }
 
 .cart {
-    height: 50vh;
+    height: 60vh;
     width: 15vw;
     background-color: #EFE6D3;
     box-shadow: 0 5px 15px rgba(53, 43, 34, 0.3);
@@ -313,7 +312,7 @@ a {
     float: left;
     text-align: left;
     padding: 1vw;
-    margin: 1.5vw;
+    margin: 1.2vw;
 }
 
 .description {
