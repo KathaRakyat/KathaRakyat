@@ -689,7 +689,7 @@ a {
     }
     
     .cart {
-        height: 45vh;
+        height: 50vh;
         width: 42vw;
         box-shadow: 0 5px 15px rgba(53, 43, 34, 0.2);
         padding: 16px;
@@ -1031,7 +1031,7 @@ a {
     }
     
     .cart {
-        height: 45vh;
+        height: 37vh;
         width: 45vw;
         box-shadow: 0 5px 15px rgba(53, 43, 34, 0.15);
         padding: 8px;
