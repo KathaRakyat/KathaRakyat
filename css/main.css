@@ -1018,12 +1018,12 @@ a {
     }
 
     .product h1 {
-        font-size: 7vw;
+        font-size: 8vw;
     }
 
     .product p {
         font-size: 4vw;
-        padding-bottom: 0;
+        padding-bottom: 3vh;
     }
     
     .productCart {
